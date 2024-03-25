@@ -1,6 +1,6 @@
 # WebGuard: Content Moderation Tool
 
-WebGuard is an open-source tool designed to help identify and moderate potentially unsafe web content, making the internet a safer place for everyone, especially children. Utilizing the power of Google Cloud's Vision and Natural Language APIs, along with ScraperAPI for efficient web crawling, WebGuard analyzes web pages for adult content, violence, and other categories that may not be suitable for younger audiences.
+WebGuard is an open-source tool designed to help identify and moderate potentially unsafe web content, making the internet a safer place for everyone, especially children. Utilizing the power of Vision and Natural Language AI models, along with ScraperAPI for efficient web crawling, WebGuard analyzes web pages for adult content, violence, and other categories that may not be suitable for younger audiences.
 
 ## Features
 
