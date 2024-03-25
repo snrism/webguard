@@ -16,13 +16,13 @@ def main(url):
         combined_text = " ".join(texts)
         
         # Process text via NLP APIs to analyze for content moderation.
+        print(f"Analyzing textual information in {url} ... \n")
         analysis_result = nlp.analyze_text(combined_text)
         if analysis_result:
             print(analysis_result)
-        else:
-            print("No moderation issues detected.")
         
         # Process images. Download locally to send for analysis. 
+        print(f"Analyzing images in {url} ... \n")
         helpers.download_images(resolved_image_urls)
         
         # Connect to Vision API for analysis

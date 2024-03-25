@@ -62,7 +62,6 @@ def load_credentials():
 def format_findings(moderation_list):
     if moderation_list:
         moderation_categories = "\n- ".join([f'"{category}"' for category in moderation_list])
-        message = (f"The content has been flagged for containing references to the following categories:\n"
-                   f"- {moderation_categories}.\n"
-                   "These may not be suitable for children. Please review carefully. \n")
+        message = (f"The content has been flagged for containing references to the following categories that may not be suitable for children:\n"
+                   f"- {moderation_categories}.\n")
         return message

@@ -91,6 +91,9 @@ def analyze_images_in_folder(folder_path='images/'):
     # If any unsafe content was detected, append a detailed message to results
     if findings:
         content_types = ", ".join(findings)
-        message = f"Input URL might contain {content_types} images that is not suitable for children."
+        safety_categories = "\n- ".join([f'"{category}"' for category in findings])
+        message = (f"Input URL might contain:\n"
+                   f"- {safety_categories}\n"
+                   "images that are not suitable for children. \n")
         return message
     return "All analyzed images appear to be suitable for children."
