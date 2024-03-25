@@ -18,6 +18,6 @@ CONTENT_MODERATION_THRESHOLDS = {
     "Profanity": 0.8,
     "Death, Harm & Tragedy": 0.3,
     "Firearms & Weapons": 0.3,
-    "Illicit Drugs": 0.3,
+    "Illicit Drugs": 0.5,
     "War & Conflict": 0.3
 }
