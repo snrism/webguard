@@ -16,7 +16,6 @@ def main(url):
         combined_text = " ".join(texts)
         
         # Process text via NLP APIs to analyze for content moderation.
-        # nlp.load_credentials()
         analysis_result = nlp.analyze_text(combined_text)
         if analysis_result:
             print(analysis_result)
@@ -27,7 +26,6 @@ def main(url):
         helpers.download_images(resolved_image_urls)
         
         # Connect to Vision API for analysis
-        # vision.load_credentials()
         print(vision.analyze_images_in_folder())
 
         # Cleanup image folder after analysis.
