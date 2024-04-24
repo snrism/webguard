@@ -12,7 +12,7 @@ WebGuard is an open-source tool designed to help identify and moderate potential
 <img width="1107" alt="image" src="https://github.com/snrism/webguard/assets/2106559/236a102e-ac17-41f7-b8c2-b3e873b23f27">
 
 ## Demo
-Checkout https://youtu.be/0lQ3iAB3igM?si=QmeAm6651EbX7FkX
+[![Checkout Video Demo](https://img.youtube.com/vi/0lQ3iAB3igM/0.jpg)](https://youtu.be/0lQ3iAB3igM?si=QmeAm6651EbX7FkX)
 
 ## Setup
 
